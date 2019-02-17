@@ -1,19 +1,9 @@
 Step: build-step-credential-initializer:
 
-{"level":"warn","ts":1550447650.8842077,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/test\" is not a valid GitHub commit ID"}
-{"level":"info","ts":1550447650.8846183,"logger":"fallback-logger","caller":"creds-init/main.go:40","msg":"Credentials initialized."}
+failed to get container status {"docker" "82c313aa4a4caad8d426ebbbbe513cecf701189a01163f1e5d1e73d6a042dbdb"}: rpc error: code = Unknown desc = Error: No such container: 82c313aa4a4caad8d426ebbbbe513cecf701189a01163f1e5d1e73d6a042dbdb
 Step: build-step-git-source-0:
 
-{"level":"warn","ts":1550447654.7748585,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/test\" is not a valid GitHub commit ID"}
-{"level":"info","ts":1550447655.357178,"logger":"fallback-logger","caller":"git-init/main.go:92","msg":"Successfully cloned \"https://github.com/matthewlshields/jim-bo.git\" @ \"cdfb89188fbe1e84049098c12c02a665a2d4305a\" in path \"/workspace\""}
+failed to get container status {"docker" "4205d4a30842cf534160ee51b804016d47454baa6d65495edaa7d6364eedb68b"}: rpc error: code = Unknown desc = Error: No such container: 4205d4a30842cf534160ee51b804016d47454baa6d65495edaa7d6364eedb68b
 Step: build-step-jenkins:
 
-Picked up _JAVA_OPTIONS: -Xmx400m
-No argument is allowed: python3
- -f (--file) FILE        : Path to Jenkinsfile (or directory containing a
-                           Jenkinsfile) to run, default to ./Jenkinsfile.
- -p (--plugins) FILE     : plugins required to run pipeline. Either a
-                           plugins.txt file or a /plugins installation
-                           directory. Defaults to plugins.txt.
- -v (--version) VAL      : jenkins version to use. Defaults to latest LTS.
- -w (--jenkins-war) FILE : path to jenkins.war or exploded jenkins war directory
+failed to get container status {"docker" "385e8331a6d08963ba07615dd908e99175bd91668966c44972b46f1bb1bd264b"}: rpc error: code = Unknown desc = Error: No such container: 385e8331a6d08963ba07615dd908e99175bd91668966c44972b46f1bb1bd264b
